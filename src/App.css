@@ -4,6 +4,7 @@ ul {
 }
 
 li {
+    position: relative;
     font-size: 2rem;
     display: table
 }
