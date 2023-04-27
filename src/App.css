@@ -1,0 +1,28 @@
+ul {
+    text-align: center;
+    list-style-type: none
+}
+
+li {
+    font-size: 2rem;
+    display: table
+}
+
+span {
+    vertical-align: middle;
+    display: table-cell;
+    width: 200px
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center
+}
+
+.wrapper > div:first-child {
+    width: 100px;
+    overflow-Y: auto;
+    border: 1px black solid
+}
